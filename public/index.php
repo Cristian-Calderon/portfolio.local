@@ -1,7 +1,7 @@
 <?php
 
 require_once "../vendor/autoload.php";
-require_once "../src/ProjectController.php";
+require_once "../src/controller/ProjectController.php";
 
 // prepare twig
 $loader = new \Twig\Loader\FilesystemLoader('templates');
