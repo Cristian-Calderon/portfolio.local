@@ -1,5 +1,7 @@
 # portfolio
 
+Clonar en apache2 
+
 Download the project to your `/var/www/portfolio.local` folder.
 
 Create a `VirtualHost` for the project with the `public/` folder as `DocumentRoot`.
