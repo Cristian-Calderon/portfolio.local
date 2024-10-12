@@ -14,9 +14,7 @@ class ProjectController {
 
         try  {
        
-            $sql = "SELECT * 
-                    FROM Project
-                    WHERE 1";
+            $sql = "SELECT *  FROM Project WHERE 1";
         
             $statement = $this->connection->prepare($sql);
             $statement->setFetchMode(PDO::FETCH_OBJ);
@@ -30,5 +28,4 @@ class ProjectController {
               echo $sql . "<br>" . $error->getMessage();
           }
     }
-
 }

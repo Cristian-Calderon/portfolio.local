@@ -1,1 +1,5 @@
+# ignorar vendor
 vendor/
+
+# ignorar jetbrains y su carpeta .idea
+.idea/
